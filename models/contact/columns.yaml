@@ -1,0 +1,16 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    first_name:
+        label: First name
+        searchable: true
+
+    last_name:
+        label: Last name
+        searchable: true
+
+    company:
+        label: Company
+        searchable: true

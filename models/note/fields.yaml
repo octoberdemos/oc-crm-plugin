@@ -1,0 +1,16 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    subject:
+        placeholder: Enter a subject for this note
+
+    content:
+        label: Content
+        type: richeditor
+
+    owner:
+        label: On behalf of
+        type: relation
+        nameFrom: first_name

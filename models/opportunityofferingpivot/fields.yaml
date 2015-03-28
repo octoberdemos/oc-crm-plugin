@@ -1,0 +1,20 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    pivot[price]:
+        label: Price
+        span: auto
+        defaultFrom: cost
+
+    pivot[cost]:
+        label: Cost
+        span: auto
+        defaultFrom: price
+
+    pivot[owner]:
+        label: Owner
+        type: relation
+        nameFrom: first_name
+        context: update # This is currently broken for creation

@@ -1,0 +1,29 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    first_name:
+        label: First name
+        span: auto
+
+    last_name:
+        label: Last name
+        span: auto
+
+    email:
+        label: Email
+        span: auto
+
+    phone:
+        label: Phone
+        span: auto
+
+    position:
+        label: Position
+        span: auto
+
+    company:
+        label: Company
+        span: auto
+

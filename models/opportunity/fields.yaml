@@ -1,0 +1,46 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+tabs:
+    defaultTab: Details
+    fields:
+        name:
+            label: Opportunity name
+            comment: Enter a project name for the opportunity.
+
+        description:
+            label: Description
+            type: richeditor
+            size: huge
+            tab: Brief
+
+        # status:
+        #     label: Status
+        #     type: relation
+
+        status:
+            label: Status
+            type: recordfinder
+            list: $/acme/crm/models/status/columns.yaml
+            prompt: Click the %s button to find a status
+            nameFrom: name
+            descriptionFrom: probability
+
+        # offerings:
+        #     label: Offerings
+        #     type: relation
+
+        offerings:
+            type: partial
+            path: field_offerings
+
+        notes:
+            type: partial
+            path: field_notes
+            tab: Notes
+
+        contacts:
+            type: partial
+            path: field_contacts
+            tab: Contacts

@@ -1,0 +1,45 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+# offerings:
+#     label: Offering
+#     view:
+#         list: $/acme/crm/models/offering/columns.yaml
+#         toolbarButtons: add|remove
+#     manage:
+#         showSearch: true
+#         recordsPerPage: 10
+#         list: $/acme/crm/models/offering/columns.yaml
+#         form: $/acme/crm/models/offering/fields.yaml
+
+offerings:
+    label: Offering
+    view:
+        list: $/acme/crm/models/opportunityofferingpivot/columns.yaml
+        toolbarButtons: add|remove
+    manage:
+        showSearch: true
+        recordsPerPage: 10
+        list: $/acme/crm/models/opportunityofferingpivot/columns.yaml
+    pivot:
+        form: $/acme/crm/models/opportunityofferingpivot/fields.yaml
+
+notes:
+    label: Note
+    view:
+        list: $/acme/crm/models/note/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/acme/crm/models/note/fields.yaml
+
+contacts:
+    label: Contact
+    view:
+        list: $/acme/crm/models/contact/columns.yaml
+        toolbarButtons: create|add|remove
+    manage:
+        showSearch: true
+        recordsPerPage: 10
+        list: $/acme/crm/models/contact/columns.yaml
+        form: $/acme/crm/models/contact/fields.yaml

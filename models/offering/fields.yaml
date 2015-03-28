@@ -1,0 +1,15 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Name
+
+    cost:
+        label: Cost
+        span: auto
+
+    price:
+        label: Price
+        span: auto

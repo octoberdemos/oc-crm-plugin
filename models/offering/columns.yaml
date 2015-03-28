@@ -1,0 +1,16 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    name:
+        label: name
+        searchable: true
+
+    cost:
+        label: Cost
+        width: 150px
+
+    price:
+        label: Price
+        width: 150px

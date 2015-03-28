@@ -1,0 +1,17 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        invisible: true
+        sortable: true
+
+    name:
+        label: Name
+        searchable: true
+        sortable: false
+
+    probability:
+        label: Probability
+        sortable: false

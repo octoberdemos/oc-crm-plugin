@@ -1,0 +1,11 @@
+1.0.1: First version of CRM plugin
+1.0.2:
+    - Create base database tables
+    - create_contacts_table.php
+    - create_notes_table.php
+    - create_offerings_table.php
+    - create_opportunities_table.php
+    - create_statuses_table.php
+1.0.3:
+    - Seeding all tables
+    - seed_all_tables.php
