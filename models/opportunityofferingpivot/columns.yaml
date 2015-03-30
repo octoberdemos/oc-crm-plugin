@@ -14,3 +14,7 @@ columns:
     pivot[cost]:
         label: Cost
         width: 150px
+
+    pivot[owner][first_name]:
+        label: Assigned to
+        width: 250px

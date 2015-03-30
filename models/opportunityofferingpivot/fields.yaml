@@ -17,4 +17,3 @@ fields:
         label: Owner
         type: relation
         nameFrom: first_name
-        context: update # This is currently broken for creation

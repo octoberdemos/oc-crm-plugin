@@ -34,6 +34,7 @@ tabs:
         offerings:
             type: partial
             path: field_offerings
+            context: update # This is currently broken for creation
 
         notes:
             type: partial

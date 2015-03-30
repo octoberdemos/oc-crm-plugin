@@ -21,7 +21,7 @@ offerings:
     manage:
         showSearch: true
         recordsPerPage: 10
-        list: $/acme/crm/models/opportunityofferingpivot/columns.yaml
+        list: $/acme/crm/models/offering/columns.yaml
     pivot:
         form: $/acme/crm/models/opportunityofferingpivot/fields.yaml
 
