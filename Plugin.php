@@ -32,7 +32,7 @@ class Plugin extends PluginBase
                 'url'         => Backend::url('acme/crm/opportunities'),
                 'icon'        => 'icon-trophy',
                 'permissions' => ['crm.*'],
-                'order'       => 100,
+                'order'       => 200,
             ]
         ];
     }
